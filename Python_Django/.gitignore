@@ -1,0 +1,24 @@
+# Ambiente virtual
+.venv/
+
+# Banco de dados SQLite
+db.sqlite3
+
+# Arquivos de migração gerados automaticamente
+**/migrations/
+!**/migrations/__init__.py
+
+# Arquivos temporários e cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Arquivos de mídia (uploads de usuários)
+media/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
